@@ -1,1 +1,31 @@
-/* Start coding here */
+* {
+    box-sizing: border-box;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.travel-blog {
+    background-color:skyblue;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.content-1, .content-2 {
+    background-color: lightsteelblue;
+    border: 2px solid;
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+    width: 500px;
+}
+
+.content-1, .content-2 {
+    font-size: 18px;
+}
+
+.content-1 p, .content-2 p {
+    font-size: 14px;
+}
